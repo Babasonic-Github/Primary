@@ -13,7 +13,8 @@ Phases:
       - yum clean all
       - yum -y install curl
       - yum -y install jq
-    build:
+      build:
       commands:
         - chmod +x s3bucket.py
 	- python s3bucket.py
+	#
